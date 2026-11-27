@@ -1900,6 +1900,21 @@ class _BuilderHomeState extends State<BuilderHome> {
             ],
           ),
         ),
+        const SizedBox(height: 18),
+        const _Notice(
+          icon: Icons.info_outline,
+          text: 'Notes\n'
+              '• Groq rate limits: several AI actions in quick succession may '
+              'fail; wait about a minute and retry.\n'
+              '• Not set up by default: LinkedIn sign-in and Adzuna city search '
+              'need credentials. Without Adzuna, job search only shows remote '
+              'jobs.\n'
+              '• PDF languages: Tamil, Hindi and similar scripts don’t render '
+              'correctly.\n'
+              '• Local use only: the API has no login, so don’t put it on the '
+              'public internet.\n'
+              '• Not tested: iOS, web, Windows and Linux.',
+        ),
         const SizedBox(height: 12),
         TextButton.icon(
           onPressed: _working ? null : _clearDraft,
