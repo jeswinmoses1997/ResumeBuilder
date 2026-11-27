@@ -1,0 +1,13 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+server/.env
+server/node_modules/
+
+# IDE and OS files
+.idea/
+*.iml
+.DS_Store
