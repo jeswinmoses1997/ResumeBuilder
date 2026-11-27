@@ -113,3 +113,7 @@ writing, make AI authorship undetectable, or guarantee an interview. Verify
 every factual claim and final application answer yourself.
 Keep provider and Adzuna credentials in the ignored `server/.env` file; never
 paste API keys into source files or commit them.
+
+## License
+
+Released under the [MIT License](LICENSE).
